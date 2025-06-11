@@ -3,11 +3,11 @@ import bgImage from "../assets/6189863_3185097.jpg";
 function Home() {
   return (
     <div
-      className="h-screen grid grid-col-1 bg-cover bg-center pt-12"
+      className="h-screen grid grid-col-1 bg-cover bg-center md:pt-10 pt-16"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="md:flex-row flex flex-col items-center justify-center md:gap-x-32 gap-y-10">
-        <div className="md:w-[288px] md:h-[288px] h-[150px] w-[150px] rounded-full bg-sky-500/100 flex items-start justify-center"></div>
+      <div className="md:flex-row flex flex-col items-center justify-center md:gap-x-32 gap-y-4">
+        <div className="md:w-[288px] md:h-[288px] h-[130px] w-[130px] rounded-full bg-sky-500/100 flex items-start justify-center"></div>
         <div style={{ fontFamily: "Montserrat, sans-serif" }}>
           <h1 className="font-semibold text-[#26201D] md:text-[40px] ">
             Hi, I'm Jorence Mendoza
@@ -20,10 +20,10 @@ function Home() {
         </div>
       </div>
       <div
-        className="md:flex flex items-center justify-center md:gap-x-48"
+        className="grid grid-cols-2 md:flex md:flex-row p-8 items-center justify-center gap-6 md:gap-x-48"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="md:w-[167px] w-[140px]">
+        <div className="md:w-[167px] w-[140px] ml-12 md:ml-0">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -40,12 +40,12 @@ function Home() {
               </g>
             </svg>
           </div>
-          <p className="font-semibold md:text-[18px] text-[12px]">UI/UX</p>
-          <p className="font-medium md:text-[15px] text-[9px]">
+          <p className="font-semibold md:text-[18px] text-[14px]">UI/UX</p>
+          <p className="font-medium md:text-[15px] text-[11px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
-        <div className="md:w-[167px] w-[140px]">
+        <div className="md:w-[167px] w-[140px] ml-12 md:ml-0">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -59,14 +59,14 @@ function Home() {
               />
             </svg>
           </div>
-          <p className="font-semibold md:text-[18px] text-[12px]">
+          <p className="font-semibold md:text-[18px] text-[14px]">
             Product Design
           </p>
-          <p className="font-medium md:text-[15px] text-[9px]">
+          <p className="font-medium md:text-[15px] text-[11px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
-        <div className="md:w-[167px] w-[140px]">
+        <div className="md:w-[167px] w-[140px] ml-12 md:ml-0">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -89,10 +89,10 @@ function Home() {
               </g>
             </svg>
           </div>
-          <p className="font-semibold md:text-[18px] text-[12px]">
+          <p className="font-semibold md:text-[18px] text-[14px]">
             Portrait Artist
           </p>
-          <p className="font-medium md:text-[15px] text-[9px]">
+          <p className="font-medium md:text-[15px] text-[11px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>

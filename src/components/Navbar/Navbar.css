@@ -76,14 +76,15 @@
     flex-direction: column;
     align-items: center; /* center all items horizontally */
     position: fixed; /* keep fixed */
-    padding: 12px 0; /* less horizontal padding since stacked */
+    padding: 12px 0;
+    height: 64px; /* less horizontal padding since stacked */
   }
 
   /* Remove absolute positioning on mobile to allow natural stacking */
   .navbar-logo {
     position: static; /* override absolute */
     transform: none;   /* override translate */
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 900;
     color: #26201D;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -111,7 +112,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    width: 100%;
+  }
+
+  .social svg {
+    width: 18px;
+    height: 18px;
   }
 }
 
