@@ -38,7 +38,7 @@ function Home() {
           </p>
           <button className="
             bg-[#26201D] mt-2 text-white
-            px-4 py-2 text-[12px]
+            px-4 py-2 text-[9px]
             xs:px-3 xs:py-1 xs:text-[12px]
             sm:px-4 sm:py-2 sm:text-[14px]
             md:px-5 md:py-2 md:text-[15px]
@@ -51,19 +51,19 @@ function Home() {
       </div>
       <div
         className="
-          flex flex-row gap-10 p-4
+          flex flex-col gap-6 px-16
           xs:grid-cols-2 xs:p-6
           sm:flex sm:flex-row sm:gap-x-8 sm:p-8
-          md:gap-x-12 md:p-10
+          md:gap-x-12 md:p-10 md:justify-center
           lg:gap-x-40 lg:p-12
-          items-start justify-center
+          items-start place-items-start 
           landscape:scale-90 landscape:sm:scale-100
         "
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
         <div className="
-          w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
-          xs:ml-4 sm:ml-0
+          w-full xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          xs:ml-4 sm:ml-0 
           landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
         ">
           <div className="mb-2">
@@ -90,8 +90,8 @@ function Home() {
           </p>
         </div>
         <div className="
-          w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
-          ml-2 xs:ml-4 sm:ml-0
+          w-full xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          xs:ml-4 sm:ml-0
           landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
         ">
           <div className="mb-2">
@@ -115,8 +115,8 @@ function Home() {
           </p>
         </div>
         <div className="
-          w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
-          ml-2 xs:ml-4 sm:ml-0
+          w-full xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          xs:ml-4 sm:ml-0
           landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
         ">
           <div className="mb-2">
