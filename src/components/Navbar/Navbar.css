@@ -6,15 +6,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 24px;
-  background: #ebe7e7; /* make background transparent */
-  position: fixed; /* optional: keeps navbar at the top while scrolling */
+  background: #ebe7e7;
+  position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* ensures it's on top of other content */
+  z-index: 1000;
+  transition: transform 0.3s ease;
 }
 
-
-/* Center logo absolutely on mobile */
 .navbar-logo {
   position: absolute;
   left: 50%;
@@ -31,8 +30,6 @@
     transform: none;
   }
 }
-
-
 
 .navbar-links {
   list-style: none;
@@ -67,31 +64,28 @@
 .burger {
   display: none;
   cursor: pointer;
+  z-index: 1002;
 }
 
-/* Show burger on mobile */
 @media screen and (max-width: 768px) {
   .navbar {
     background-color: #ebe7e7;
     flex-direction: column;
-    align-items: center; /* center all items horizontally */
-    position: fixed; /* keep fixed */
+    align-items: center;
     padding: 12px 0;
-    height: 64px; /* less horizontal padding since stacked */
+    height: auto;
+    padding-bottom: 12px;
   }
 
-  /* Remove absolute positioning on mobile to allow natural stacking */
   .navbar-logo {
-    position: static; /* override absolute */
-    transform: none;   /* override translate */
+    position: static;
+    transform: none;
     font-size: 15px;
     font-weight: 900;
     color: #26201D;
-    font-family: 'Montserrat Alternates', sans-serif;
-    margin-bottom: 8px; /* space between logo and social */
+    margin-bottom: 8px;
   }
 
-  /* Show burger icon on top right (optional: you can reposition if needed) */
   .burger {
     display: block;
     position: absolute;
@@ -99,12 +93,23 @@
     right: 20px;
   }
 
-  /* Hide nav links on mobile */
   .navbar-links {
     display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 
-  /* Social icons centered below the logo */
+  .navbar-links.open {
+    display: flex;
+  }
+
   .social {
     display: flex;
     justify-content: center;
@@ -122,10 +127,8 @@
 
 .navbar.show {
   transform: translateY(0);
-  transition: transform 0.3s ease;
 }
 
 .navbar.hide {
   transform: translateY(-100%);
-  transition: transform 0.3s ease;
 }

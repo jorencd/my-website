@@ -23,7 +23,7 @@ function Home() {
         className="grid grid-cols-2 md:flex md:flex-row p-8 items-center justify-center gap-6 md:gap-x-48"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="md:w-[167px] w-[140px] ml-12 md:ml-0">
+        <div className="md:w-[167px] w-[140px] ml-8 md:ml-0">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
-        <div className="md:w-[167px] w-[140px] ml-12 md:ml-0">
+        <div className="md:w-[167px] w-[140px] ml-8 md:ml-0">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
-        <div className="md:w-[167px] w-[140px] ml-12 md:ml-0">
+        <div className="md:w-[167px] w-[140px] ml-8 md:ml-0">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
