@@ -51,7 +51,7 @@ function Home() {
       </div>
       <div
         className="
-          flex flex-col gap-6 px-16
+          flex flex-col gap-6 px-20
           xs:grid-cols-2 xs:p-6
           sm:flex sm:flex-row sm:gap-x-8 sm:p-8
           md:gap-x-12 md:p-10 md:justify-center
