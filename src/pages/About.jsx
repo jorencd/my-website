@@ -1,19 +1,19 @@
 function About() {
   return (
-    <div className="h-screen flex items-center justify-center p-20 md:px-40 px-16 gap-x-32 ">
-      <div className="md:flex hidden items-center justify-center">
+    <div className="h-screen flex items-center justify-center p-20 sm:px-40 px-16 gap-x-32 ">
+      <div className="sm:flex hidden items-center justify-center">
         <div
-          className="rounded-full bg-gray-300 md:h-64 md:w-64 h-48 w-48 bg-cover bg-center"
-          style={{ backgroundImage: "url('/src/assets/profile.png')" }}
+          className="rounded-full bg-gray-300 sm:h-64 sm:w-64 h-48 w-48 bg-cover bg-center"
+          style={{ backgroundImage: "url('/profile.png')" }}
         ></div>
       </div>
       <div
-        className="flex flex-col gap-4 md:w-full"
+        className="flex flex-col gap-4 sm:w-full"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
         <div className="flex flex-col gap-4">
-          <h2 className="md:text-[30px] text-[22px] font-semibold" style={{ fontFamily: "Montserrat, sans-serif" }}>About Me</h2>
-          <p className="md:text-[15px] text-[15px] text-justify">
+          <h2 className="sm:text-[30px] text-[22px] font-semibold" style={{ fontFamily: "Montserrat, sans-serif" }}>About Me</h2>
+          <p className="sm:text-[15px] text-[15px] text-justify">
             Hi, I'm Jorence Mendoza, a BS Information Technology Major in Web &
             Game Development at Pamantasan ng Lungsod ng San Pablo. I’m
             passionate about creativity and innovation, especially in how
@@ -23,9 +23,9 @@ function About() {
           </p>
         </div>
         <div className="mt-8 mb-4">
-          <h2 className="font-medium text-[20px] md:text-[25px]">Skills</h2>
+          <h2 className="font-medium text-[20px] sm:text-[25px]">Skills</h2>
         </div>
-        <div className="grid grid-cols-3 gap-8 md:grid-cols-3 md:gap-8">
+        <div className="grid grid-cols-3 gap-8 sm:grid-cols-3 sm:gap-8">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
