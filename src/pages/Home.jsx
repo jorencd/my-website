@@ -7,7 +7,7 @@ function Home() {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="md:flex-row flex flex-col items-center justify-center md:gap-x-32 gap-y-4">
-        <div className="md:w-[288px] md:h-[288px] h-[130px] w-[130px] rounded-full bg-sky-500/100 flex items-start justify-center"></div>
+        <div className="md:w-[288px] md:h-[288px] h-[130px] w-[130px] rounded-full bg-sky-500/100 flex items-start justify-center bg-cover bg-center" style={{ backgroundImage: "url('/src/assets/profile.png')" }}></div>
         <div style={{ fontFamily: "Montserrat, sans-serif" }}>
           <h1 className="font-semibold text-[#26201D] md:text-[40px] ">
             Hi, I'm Jorence Mendoza
@@ -15,7 +15,7 @@ function Home() {
           <p>A Front-End Developer</p>
           <p>& UI Designer</p>
           <button className="bg-[#26201D] mt-2 text-white md:px-5 md:py-2 px-3 py-1 md:text-[15px] text-[12px] rounded-[10px] font">
-            view my work
+            view my CV
           </button>
         </div>
       </div>
