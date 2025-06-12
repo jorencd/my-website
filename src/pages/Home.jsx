@@ -9,7 +9,7 @@ function Home() {
       <div className="flex flex-col items-center justify-center gap-y-4 sm:flex-row sm:gap-x-12 md:gap-x-20 lg:gap-x-32 landscape:pt-4 landscape:scale-90 landscape:sm:scale-100">
         <div
           className="
-            w-[90px] h-[90px]
+            w-[120px] h-[120px]
             xs:w-[110px] xs:h-[110px]
             sm:w-[130px] sm:h-[130px]
             md:w-[200px] md:h-[200px]
@@ -25,20 +25,20 @@ function Home() {
         >
           <h1 className="
             font-semibold text-[#26201D]
-            text-[16px] xs:text-[18px] sm:text-[22px] md:text-[32px] lg:text-[40px]
+            text-[20px] xs:text-[22px] sm:text-[26px] md:text-[40px] lg:text-[40px]
             landscape:text-[14px] sm:landscape:text-[40px]
           ">
             Hi, I'm Jorence Mendoza
           </h1>
-          <p className="text-[10px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
+          <p className="text-[12px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
             A Front-End Developer
           </p>
-          <p className="text-[10px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
+          <p className="text-[12px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
             & UI Designer
           </p>
           <button className="
             bg-[#26201D] mt-2 text-white
-            px-2 py-1 text-[10px]
+            px-4 py-2 text-[10px]
             xs:px-3 xs:py-1 xs:text-[12px]
             sm:px-4 sm:py-2 sm:text-[14px]
             md:px-5 md:py-2 md:text-[15px]
@@ -82,15 +82,15 @@ function Home() {
               </g>
             </svg>
           </div>
-          <p className="font-semibold text-[12px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
+          <p className="font-semibold text-[14px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             UI/UX
           </p>
-          <p className="font-medium text-[9px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
+          <p className="font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
         <div className="
-          ml-12 w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          ml-14 w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
           ml-2 xs:ml-4 sm:ml-0
           landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
         ">
@@ -107,10 +107,10 @@ function Home() {
               />
             </svg>
           </div>
-          <p className="font-semibold text-[12px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
+          <p className="font-semibold text-[14px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             Product Design
           </p>
-          <p className="font-medium text-[9px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
+          <p className="font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
@@ -141,10 +141,10 @@ function Home() {
               </g>
             </svg>
           </div>
-          <p className="font-semibold text-[12px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
+          <p className="font-semibold text-[14px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             Portrait Artist
           </p>
-          <p className="font-medium text-[9px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
+          <p className="font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
