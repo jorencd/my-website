@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="h-screen flex items-center justify-center p-20 md:px-40 gap-x-32 ">
+    <div className="h-screen flex items-center justify-center p-20 md:px-32 gap-x-32 ">
       <div className="md:flex hidden items-center justify-center">
         <div
           className="rounded-full bg-gray-300 md:h-64 md:w-64 h-48 w-48 bg-cover bg-center"
@@ -13,7 +13,7 @@ function About() {
       >
         <div className="flex flex-col gap-4">
           <h2 className="md:text-[30px] text-[22px] font-semibold" style={{ fontFamily: "Montserrat, sans-serif" }}>About Me</h2>
-          <p className="md:text-[15px] text-[12px] text-justify">
+          <p className="md:text-[15px] text-[15px] text-justify">
             Hi, I'm Jorence Mendoza, a BS Information Technology Major in Web &
             Game Development at Pamantasan ng Lungsod ng San Pablo. I’m
             passionate about creativity and innovation, especially in how
