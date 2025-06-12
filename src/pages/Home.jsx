@@ -9,7 +9,7 @@ function Home() {
       <div className="flex flex-col items-center justify-center gap-y-4 sm:flex-row sm:gap-x-12 md:gap-x-20 lg:gap-x-32 landscape:pt-4 landscape:scale-90 landscape:sm:scale-100">
         <div
           className="
-            w-[120px] h-[120px]
+            w-[140px] h-[140px]
             xs:w-[110px] xs:h-[110px]
             sm:w-[130px] sm:h-[130px]
             md:w-[200px] md:h-[200px]
@@ -51,7 +51,7 @@ function Home() {
       </div>
       <div
         className="
-          grid grid-cols-2 gap-6 p-4
+          flex flex-row gap-10 p-4
           xs:grid-cols-2 xs:p-6
           sm:flex sm:flex-row sm:gap-x-8 sm:p-8
           md:gap-x-12 md:p-10
@@ -63,7 +63,7 @@ function Home() {
       >
         <div className="
           w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
-          ml-20 xs:ml-4 sm:ml-0
+          xs:ml-4 sm:ml-0
           landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
         ">
           <div className="mb-2">
@@ -85,12 +85,12 @@ function Home() {
           <p className="font-semibold text-[14px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             UI/UX
           </p>
-          <p className="font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
+          <p className="text-justify font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
         <div className="
-          ml-14 w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
           ml-2 xs:ml-4 sm:ml-0
           landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
         ">
@@ -110,12 +110,12 @@ function Home() {
           <p className="font-semibold text-[14px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             Product Design
           </p>
-          <p className="font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
+          <p className="text-justify font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
         <div className="
-          ml-20 w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
           ml-2 xs:ml-4 sm:ml-0
           landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
         ">
@@ -144,7 +144,7 @@ function Home() {
           <p className="font-semibold text-[14px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             Portrait Artist
           </p>
-          <p className="font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
+          <p className="text-justify font-medium text-[11px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
