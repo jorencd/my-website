@@ -3,32 +3,74 @@ import bgImage from "../assets/6189863_3185097.jpg";
 function Home() {
   return (
     <div
-      className="h-screen grid grid-col-1 bg-cover bg-center sm:pt-10 pt-16"
+      className="h-screen grid grid-col-1 bg-cover bg-center pt-16"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="sm:flex-row flex flex-col items-center justify-center sm:gap-x-32 gap-y-4">
-        <div className="sm:w-[288px] sm:h-[288px] h-[130px] w-[130px] rounded-full bg-sky-500/100 flex items-start justify-center bg-cover bg-center" style={{ backgroundImage: "url('/profile.png')" }}></div>
-        <div style={{ fontFamily: "Montserrat, sans-serif" }}>
-          <h1 className="font-semibold text-[#26201D] sm:text-[40px] ">
+      <div className="flex flex-col items-center justify-center gap-y-4 sm:flex-row sm:gap-x-12 md:gap-x-20 lg:gap-x-32 landscape:pt-4 landscape:scale-90 landscape:sm:scale-100">
+        <div
+          className="
+            w-[90px] h-[90px]
+            xs:w-[110px] xs:h-[110px]
+            sm:w-[130px] sm:h-[130px]
+            md:w-[200px] md:h-[200px]
+            lg:w-[288px] lg:h-[288px]
+            rounded-full bg-sky-500/100 flex items-start justify-center bg-cover bg-center
+            landscape:w-[70px] landscape:h-[70px] landscape:sm:w-[288px] landscape:sm:h-[288px]
+          "
+          style={{ backgroundImage: "url('/profile.png')" }}
+        ></div>
+        <div
+          style={{ fontFamily: "Montserrat, sans-serif" }}
+          className="sm:text-left landscape:scale-90 landscape:sm:scale-100"
+        >
+          <h1 className="
+            font-semibold text-[#26201D]
+            text-[16px] xs:text-[18px] sm:text-[22px] md:text-[32px] lg:text-[40px]
+            landscape:text-[14px] sm:landscape:text-[40px]
+          ">
             Hi, I'm Jorence Mendoza
           </h1>
-          <p>A Front-End Developer</p>
-          <p>& UI Designer</p>
-          <button className="bg-[#26201D] mt-2 text-white sm:px-5 sm:py-2 px-3 py-1 sm:text-[15px] text-[12px] rounded-[10px] font">
-            view my CV
+          <p className="text-[10px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
+            A Front-End Developer
+          </p>
+          <p className="text-[10px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
+            & UI Designer
+          </p>
+          <button className="
+            bg-[#26201D] mt-2 text-white
+            px-2 py-1 text-[10px]
+            xs:px-3 xs:py-1 xs:text-[12px]
+            sm:px-4 sm:py-2 sm:text-[14px]
+            md:px-5 md:py-2 md:text-[15px]
+            rounded-[10px] font
+            landscape:text-[10px] landscape:px-2 landscape:py-1 sm:landscape:text-[15px] sm:landscape:px-5 sm:landscape:py-2
+          ">
+            Download CV
           </button>
         </div>
       </div>
       <div
-        className="grid grid-cols-2 sm:flex sm:flex-row p-8 items-center justify-center gap-6 sm:gap-x-48"
+        className="
+          grid grid-cols-2 gap-6 p-4
+          xs:grid-cols-2 xs:p-6
+          sm:flex sm:flex-row sm:gap-x-8 sm:p-8
+          md:gap-x-12 md:p-10
+          lg:gap-x-40 lg:p-12
+          items-center justify-center
+          landscape:scale-90 landscape:sm:scale-100
+        "
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
-        <div className="sm:w-[167px] w-[140px] ml-8 sm:ml-0">
+        <div className="
+          w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          ml-20 xs:ml-4 sm:ml-0
+          landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
+        ">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="29"
-              height="29"
+              width="24"
+              height="24"
               viewBox="0 0 24 24"
             >
               <g fill="none">
@@ -40,17 +82,23 @@ function Home() {
               </g>
             </svg>
           </div>
-          <p className="font-semibold sm:text-[18px] text-[14px]">UI/UX</p>
-          <p className="font-medium sm:text-[15px] text-[11px]">
+          <p className="font-semibold text-[12px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
+            UI/UX
+          </p>
+          <p className="font-medium text-[9px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
-        <div className="sm:w-[167px] w-[140px] ml-8 sm:ml-0">
+        <div className="
+          ml-12 w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          ml-2 xs:ml-4 sm:ml-0
+          landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
+        ">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="29"
-              height="29"
+              width="24"
+              height="24"
               viewBox="0 0 32 32"
             >
               <path
@@ -59,19 +107,23 @@ function Home() {
               />
             </svg>
           </div>
-          <p className="font-semibold sm:text-[18px] text-[14px]">
+          <p className="font-semibold text-[12px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             Product Design
           </p>
-          <p className="font-medium sm:text-[15px] text-[11px]">
+          <p className="font-medium text-[9px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>
-        <div className="sm:w-[167px] w-[140px] ml-8 sm:ml-0">
+        <div className="
+          ml-20 w-[90px] xs:w-[110px] sm:w-[140px] md:w-[160px] lg:w-[167px]
+          ml-2 xs:ml-4 sm:ml-0
+          landscape:w-[70px] landscape:ml-2 sm:landscape:w-[167px] sm:landscape:ml-0
+        ">
           <div className="mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="29"
-              height="29"
+              width="24"
+              height="24"
               viewBox="0 0 20 20"
             >
               <g fill="currentColor">
@@ -89,10 +141,10 @@ function Home() {
               </g>
             </svg>
           </div>
-          <p className="font-semibold sm:text-[18px] text-[14px]">
+          <p className="font-semibold text-[12px] xs:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[10px] sm:landscape:text-[18px]">
             Portrait Artist
           </p>
-          <p className="font-medium sm:text-[15px] text-[11px]">
+          <p className="font-medium text-[9px] xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[15px] landscape:text-[8px] sm:landscape:text-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing.
           </p>
         </div>

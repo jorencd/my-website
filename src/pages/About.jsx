@@ -1,19 +1,50 @@
 function About() {
   return (
-    <div className="h-screen flex items-center justify-center p-20 sm:px-40 px-16 gap-x-32 ">
-      <div className="sm:flex hidden items-center justify-center">
+    <div className="
+      h-screen flex flex-col items-center justify-center
+      px-8 py-8
+      sm:flex-row sm:gap-x-12 sm:px-10 sm:py-16
+      md:gap-x-20 md:px-20 md:py-20
+      lg:gap-x-32 lg:px-40 lg:py-20
+      landscape:scale-90 landscape:sm:scale-100
+    ">
+      <div className="flex items-center justify-center mb-8 sm:mb-0 sm:flex hidden sm:block">
         <div
-          className="rounded-full bg-gray-300 sm:h-64 sm:w-64 h-48 w-48 bg-cover bg-center"
+          className="
+            rounded-full bg-gray-300
+            h-32 w-32
+            sm:h-64 sm:w-64
+            md:h-56 md:w-56
+            lg:h-64 lg:w-64
+            bg-cover bg-center
+            landscape:w-[90px] landscape:h-[90px] landscape:sm:w-64 landscape:sm:h-64
+          "
           style={{ backgroundImage: "url('/profile.png')" }}
         ></div>
       </div>
       <div
-        className="flex flex-col gap-4 sm:w-full"
+        className="flex flex-col gap-4 w-full max-w-xl"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
         <div className="flex flex-col gap-4">
-          <h2 className="sm:text-[30px] text-[22px] font-semibold" style={{ fontFamily: "Montserrat, sans-serif" }}>About Me</h2>
-          <p className="sm:text-[15px] text-[15px] text-justify">
+          <h2 className="
+            text-[22px]
+            sm:text-[30px]
+            md:text-[28px]
+            lg:text-[32px]
+            font-semibold
+            landscape:text-[18px] sm:landscape:text-[30px]
+          " style={{ fontFamily: "Montserrat, sans-serif" }}>
+            About Me
+          </h2>
+          <p className="
+            text-[14px]
+            sm:text-[15px]
+            md:text-[16px]
+            lg:text-[17px]
+            text-justify
+            landscape:text-[12px] sm:landscape:text-[15px]
+          ">
             Hi, I'm Jorence Mendoza, a BS Information Technology Major in Web &
             Game Development at Pamantasan ng Lungsod ng San Pablo. I’m
             passionate about creativity and innovation, especially in how
@@ -23,29 +54,45 @@ function About() {
           </p>
         </div>
         <div className="mt-8 mb-4">
-          <h2 className="font-medium text-[20px] sm:text-[25px]">Skills</h2>
+          <h2 className="
+            font-semibold
+            text-[18px]
+            sm:text-[25px]
+            md:text-[22px]
+            lg:text-[25px]
+            landscape:text-[14px] sm:landscape:text-[25px]
+          ">
+            Skills
+          </h2>
         </div>
-        <div className="grid grid-cols-3 gap-8 sm:grid-cols-3 sm:gap-8">
-          <div className="mb-2">
+        <div className="
+          grid grid-cols-2 gap-4
+          sm:grid-cols-3 sm:gap-8
+          md:gap-10
+          lg:gap-12
+        ">
+          <div className="mb-2 flex flex-col items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 32 32"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
             >
               <path
                 fill="#e65100"
                 d="m4 4l2 22l10 2l10-2l2-22Zm19.72 7H11.28l.29 3h11.86l-.802 9.335L15.99 25l-6.635-1.646L8.93 19h3.02l.19 2l3.86.77l3.84-.77l.29-4H8.84L8 8h16Z"
               />
             </svg>
-            <span className="text-[12px] font-semibold">HTML</span>
+            <span className="text-[12px] sm:text-[13px] md:text-[14px] font-semibold mt-1">HTML</span>
           </div>
-          <div className="mb-2">
+          <div className="mb-2 flex flex-col items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 128 128"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
             >
               <path
                 fill="#1572b6"
@@ -72,26 +119,28 @@ function About() {
                 d="M64.048 23.435v13.831H30.64l-.277-3.108l-.63-7.012l-.331-3.711zm-.047 27.996v13.831H48.792l-.277-3.108l-.631-7.012l-.33-3.711z"
               />
             </svg>
-            <span className="text-[12px] font-semibold">CSS</span>
+            <span className="text-[12px] sm:text-[13px] md:text-[14px] font-semibold mt-1">CSS</span>
           </div>
-          <div className="mb-2">
+          <div className="mb-2 flex flex-col items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 32 32"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
             >
               <path fill="#f5de19" d="M2 2h28v28H2z" />
               <path d="M20.809 23.875a2.87 2.87 0 0 0 2.6 1.6c1.09 0 1.787-.545 1.787-1.3c0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964c0-1.973 1.5-3.476 3.853-3.476a3.89 3.89 0 0 1 3.742 2.107L25 18.128A1.79 1.79 0 0 0 23.311 17a1.145 1.145 0 0 0-1.259 1.128c0 .789.489 1.109 1.618 1.6l.658.282c2.236.959 3.5 1.936 3.5 4.133c0 2.369-1.861 3.667-4.36 3.667a5.06 5.06 0 0 1-4.795-2.691Zm-9.295.228c.413.733.789 1.353 1.693 1.353c.864 0 1.41-.338 1.41-1.653v-8.947h2.631v8.982c0 2.724-1.6 3.964-3.929 3.964a4.085 4.085 0 0 1-3.947-2.4Z" />
             </svg>
-            <span className="text-[12px] font-semibold">JavaScript</span>
+            <span className="text-[12px] sm:text-[13px] md:text-[14px] font-semibold mt-1">JavaScript</span>
           </div>
-          <div className="mb-2">
+          <div className="mb-2 flex flex-col items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 256 256"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
             >
               <g fill="none">
                 <rect width="256" height="256" fill="#242938" rx="60" />
@@ -101,32 +150,33 @@ function About() {
                 />
                 <path
                   stroke="#00d8ff"
-                  stroke-width="8.911"
+                  strokeWidth="8.911"
                   d="M128.002 90.363c25.048 0 48.317 3.594 65.862 9.635C215.003 107.275 228 118.306 228 128.295c0 10.409-13.774 22.128-36.475 29.649c-17.162 5.686-39.746 8.654-63.523 8.654c-24.378 0-47.463-2.786-64.819-8.717C41.225 150.376 28 138.506 28 128.295c0-9.908 12.41-20.854 33.252-28.12c17.61-6.14 41.453-9.812 66.746-9.812z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
                 <path
                   stroke="#00d8ff"
-                  stroke-width="8.911"
+                  strokeWidth="8.911"
                   d="M94.981 109.438c12.514-21.698 27.251-40.06 41.249-52.24c16.864-14.677 32.914-20.425 41.566-15.436c9.017 5.2 12.288 22.988 7.463 46.41c-3.645 17.707-12.359 38.753-24.238 59.351c-12.179 21.118-26.124 39.724-39.931 51.792c-17.471 15.272-34.362 20.799-43.207 15.698c-8.583-4.946-11.865-21.167-7.747-42.852c3.479-18.323 12.21-40.812 24.841-62.723z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
                 <path
                   stroke="#00d8ff"
-                  stroke-width="8.911"
+                  strokeWidth="8.911"
                   d="M95.012 147.578c-12.549-21.674-21.093-43.616-24.659-61.826c-4.293-21.941-1.258-38.716 7.387-43.72c9.009-5.216 26.052.834 43.934 16.712c13.52 12.004 27.403 30.061 39.316 50.639c12.214 21.098 21.368 42.473 24.929 60.461c4.506 22.764.859 40.157-7.978 45.272c-8.574 4.964-24.265-.291-40.996-14.689c-14.136-12.164-29.26-30.959-41.933-52.849Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </g>
             </svg>
-            <span className="text-[12px] font-semibold">React</span>
+            <span className="text-[12px] sm:text-[13px] md:text-[14px] font-semibold mt-1">React</span>
           </div>
-          <div className="mb-2">
+          <div className="mb-2 flex flex-col items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 128 128"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
             >
               <linearGradient
                 id="deviconAngular0"
@@ -137,12 +187,12 @@ function About() {
                 gradientTransform="matrix(1 0 0 -1 0 130)"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#e40035" />
-                <stop offset=".24" stop-color="#f60a48" />
-                <stop offset=".352" stop-color="#f20755" />
-                <stop offset=".494" stop-color="#dc087d" />
-                <stop offset=".745" stop-color="#9717e7" />
-                <stop offset="1" stop-color="#6c00f5" />
+                <stop offset="0" stopColor="#e40035" />
+                <stop offset=".24" stopColor="#f60a48" />
+                <stop offset=".352" stopColor="#f20755" />
+                <stop offset=".494" stopColor="#dc087d" />
+                <stop offset=".745" stopColor="#9717e7" />
+                <stop offset="1" stopColor="#6c00f5" />
               </linearGradient>
               <path
                 fill="url(#deviconAngular0)"
@@ -157,15 +207,15 @@ function About() {
                 gradientTransform="matrix(1 0 0 -1 0 130)"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#ff31d9" />
-                <stop offset="1" stop-color="#ff5be1" stop-opacity="0" />
+                <stop offset="0" stopColor="#ff31d9" />
+                <stop offset="1" stopColor="#ff5be1" stopOpacity="0" />
               </linearGradient>
               <path
                 fill="url(#deviconAngular1)"
                 d="m124.5 21.3l-4.4 68.6L78.3 0zm-29 88.7L64 128l-31.5-18l6.4-15.5h50.3zM64 34.1l16.5 40.2h-33zM7.9 89.9L3.5 21.3L49.7 0z"
               />
             </svg>
-            <span className="text-[12px] font-semibold">Angular</span>
+            <span className="text-[12px] sm:text-[13px] md:text-[14px] font-semibold mt-1">Angular</span>
           </div>
         </div>
       </div>
