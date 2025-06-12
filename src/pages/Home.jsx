@@ -25,20 +25,20 @@ function Home() {
         >
           <h1 className="
             font-semibold text-[#26201D]
-            text-[20px] xs:text-[22px] sm:text-[26px] md:text-[40px] lg:text-[40px]
+            text-[25px] xs:text-[22px] sm:text-[26px] md:text-[40px] lg:text-[40px]
             landscape:text-[14px] sm:landscape:text-[40px]
           ">
             Hi, I'm Jorence Mendoza
           </h1>
-          <p className="text-[12px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
+          <p className="text-[14px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
             A Front-End Developer
           </p>
-          <p className="text-[12px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
+          <p className="text-[14px] xs:text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] landscape:text-[12px] sm:landscape:text-[16px]">
             & UI Designer
           </p>
           <button className="
             bg-[#26201D] mt-2 text-white
-            px-4 py-2 text-[10px]
+            px-4 py-2 text-[12px]
             xs:px-3 xs:py-1 xs:text-[12px]
             sm:px-4 sm:py-2 sm:text-[14px]
             md:px-5 md:py-2 md:text-[15px]
@@ -56,7 +56,7 @@ function Home() {
           sm:flex sm:flex-row sm:gap-x-8 sm:p-8
           md:gap-x-12 md:p-10
           lg:gap-x-40 lg:p-12
-          items-center justify-center
+          items-start justify-center
           landscape:scale-90 landscape:sm:scale-100
         "
         style={{ fontFamily: "Montserrat, sans-serif" }}
